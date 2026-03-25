@@ -15,3 +15,30 @@ public class CharacterData : ScriptableObject
     public List<string> tags = new List<string>();
     public List<Flag> flags = new List<Flag>();
 }
+public class Prompt
+{
+    public string promptText;
+    public string answerText;
+}
+
+[System.Serializable]
+public class Flag
+{
+    public enum FlagType
+    {
+        SoftGreen,
+        HardGreen,
+        SoftRed,
+        hardRed
+    }
+
+    public enum SearchType
+    {
+        SearchFor,
+        SearchAgainst
+    }
+
+    public FlagType type;
+    public SearchType searchType;
+    public string tag;
+}

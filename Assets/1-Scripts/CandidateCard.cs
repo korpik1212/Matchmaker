@@ -1,8 +1,10 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using DG.Tweening;
 
-public class CandidateCard : MonoBehaviour
+public class CandidateCard : MonoBehaviour,IPointerClickHandler,IPointerEnterHandler, IPointerExitHandler
 {
     public TextMeshProUGUI nameText;
     public Image characterIcon;
@@ -30,5 +32,20 @@ public class CandidateCard : MonoBehaviour
     public void SelectCard()
     {
         CandidateClickInfo.instance.ChangeCurrentData(character);
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        throw new System.NotImplementedException();
     }
 }

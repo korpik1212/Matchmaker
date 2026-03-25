@@ -55,30 +55,3 @@ public class Character : MonoBehaviour
     }
 }
 
-public class Prompt
-{
-    public string promptText;
-    public string answerText;
-}
-
-[System.Serializable]
-public class Flag
-{
-    public enum FlagType
-    {
-        SoftGreen,
-        HardGreen,
-        SoftRed,
-        hardRed
-    }
-
-    public enum SearchType
-    {
-        SearchFor,
-        SearchAgainst
-    }
-
-    public FlagType type;
-    public SearchType searchType;
-    public string tag;
-}
