@@ -6,6 +6,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Character Data", menuName = "Character Data", order = 1)]
 public class CharacterData : ScriptableObject
 {
+
+    [Header("include which stars this text will be shown like I hated this 1 2 , and then this will show as the feedback for thoose stars")]
+    public List<string> feedbackTexts = new List<string>();
+
     public string characterName;
     public Sprite characterIcon;
     [TextArea(15, 20)]
