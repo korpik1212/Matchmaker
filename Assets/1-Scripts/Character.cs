@@ -17,6 +17,8 @@ public class Character : MonoBehaviour
         CalculateScore(this.data, character.data, ref totalPoints, ref totalMaxPoints);
         CalculateScore(character.data, this.data, ref totalPoints, ref totalMaxPoints);
 
+
+       
         return totalMaxPoints > 0 ? (float)totalPoints / totalMaxPoints : 0f;
     }
 

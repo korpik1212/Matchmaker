@@ -19,10 +19,8 @@ MonoBehaviour:
   - smoking
   - whaterverthefuck
   promptList:
-  - promptText: 
-    answerText: 
-  - promptText: 
-    answerText: 
+  - promptText: asd
+    answerText: sss
   tags:
   - smoking
   - whaterverthefuck
