@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
+  m_Name: tar_Aki_lvl1
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  characterName: Aki
+  characterIcon: {fileID: 6555634847306763671, guid: d7e8541beebbbde458a1e9a3f4536b22, type: 3}
+  characterBio: Just trying this app out. Who knows what will happen :)
+  interests:
+  - artsy
+  - sports
+  - games
+  promptList:
+  - promptText: 
+    answerText: 
+  - promptText: 
+    answerText: 
+  tags:
+  - 
+  - 
+  - 
+  flags:
+  - type: 3
+    searchType: 1
+    tag: anime
