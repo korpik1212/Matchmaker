@@ -7,6 +7,7 @@ using UnityEngine;
 public class CharacterData : ScriptableObject
 {
     public string characterName;
+    public Sprite characterIcon;
     [TextArea(15, 20)]
     public string characterBio;
     public List<string> interests = new List<string>();

@@ -5,6 +5,10 @@ public class Character : MonoBehaviour
 {
     public CharacterData data;
 
+    public void AssignData(CharacterData newData)
+    {
+        data = newData;
+    }
     public float CheckCompability(Character character)
     {
         int totalMaxPoints = 0;
