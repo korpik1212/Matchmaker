@@ -15,6 +15,8 @@ public class CharacterData : ScriptableObject
     public List<string> tags = new List<string>();
     public List<Flag> flags = new List<Flag>();
 }
+
+[System.Serializable]
 public class Prompt
 {
     public string promptText;
