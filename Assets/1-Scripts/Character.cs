@@ -22,6 +22,8 @@ public class Character : MonoBehaviour
 
     private void CalculateScore(CharacterData evaluator, CharacterData subject, ref int points, ref int maxPoints)
     {
+        evaluator.AddInterestsToTags();
+        subject.AddInterestsToTags();
         foreach (string interest in evaluator.interests)
         {
             maxPoints += 10;
@@ -34,7 +36,6 @@ public class Character : MonoBehaviour
         foreach (Flag flag in evaluator.flags)
         {
             int scoreValue = (flag.type == Flag.FlagType.SoftGreen || flag.type == Flag.FlagType.SoftRed) ? 20 : 40;
-            maxPoints += scoreValue;
 
             bool hasTag = subject.tags.Contains(flag.tag);
             bool isTriggered = (flag.searchType == Flag.SearchType.SearchFor && hasTag) ||
@@ -49,6 +50,8 @@ public class Character : MonoBehaviour
                 else
                 {
                     points += scoreValue;
+                    maxPoints += scoreValue;
+
                 }
             }
         }

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class TargetInfo : MonoBehaviour
 {
-    public static TargetInfo targetInfo;
+    public static TargetInfo instance;
     [HideInInspector]
     public Character character;
 
@@ -19,9 +19,9 @@ public class TargetInfo : MonoBehaviour
 
     private void Awake()
     {
-        if (targetInfo == null)
+        if (instance == null)
         {
-            targetInfo = this;
+            instance = this;
         }
         else
         {
@@ -34,10 +34,10 @@ public class TargetInfo : MonoBehaviour
     }
 
 
-    public void ChangeCurrentData(Character character)
+    public void ChangeCurrentData(CharacterData characterData)
     {
-        //character.data = character.data;
-        UpdateInfoWithData(character.data);
+        this.character.data = characterData;
+        UpdateInfoWithData(characterData);
     }
 
     public void UpdateInfoWithData(CharacterData data)

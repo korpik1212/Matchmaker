@@ -18,17 +18,15 @@ MonoBehaviour:
   interests:
   - smoking
   - whaterverthefuck
-  - smoking
   promptList:
   - promptText: 
     answerText: 
   - promptText: 
     answerText: 
   tags:
-  - 
-  - 
-  - 
+  - smoking
+  - whaterverthefuck
   flags:
   - type: 3
-    searchType: 1
+    searchType: 0
     tag: anime

@@ -14,33 +14,46 @@ public class CharacterData : ScriptableObject
     public List<Prompt> promptList;
     public List<string> tags = new List<string>();
     public List<Flag> flags = new List<Flag>();
-}
 
-[System.Serializable]
-public class Prompt
-{
-    public string promptText;
-    public string answerText;
-}
 
-[System.Serializable]
-public class Flag
-{
-    public enum FlagType
+    public void AddInterestsToTags()
     {
-        SoftGreen,
-        HardGreen,
-        SoftRed,
-        hardRed
+        foreach (string interest in interests)
+        {
+            if (!tags.Contains(interest))
+            {
+                tags.Add(interest);
+            }
+        }
+
+    }
+}
+
+    [System.Serializable]
+    public class Prompt
+    {
+        public string promptText;
+        public string answerText;
     }
 
-    public enum SearchType
+    [System.Serializable]
+    public class Flag
     {
-        SearchFor,
-        SearchAgainst
-    }
+        public enum FlagType
+        {
+            SoftGreen,
+            HardGreen,
+            SoftRed,
+            hardRed
+        }
 
-    public FlagType type;
-    public SearchType searchType;
-    public string tag;
-}
+        public enum SearchType
+        {
+            SearchFor,
+            SearchAgainst
+        }
+
+        public FlagType type;
+        public SearchType searchType;
+        public string tag;
+    }

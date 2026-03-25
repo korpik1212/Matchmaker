@@ -15,6 +15,11 @@ MonoBehaviour:
   characterName: someone
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   characterBio: asdasdsa
-  interests: []
+  interests:
+  - asd
+  - ss
+  promptList:
+  - promptText: sd
+    answerText: sds
   tags: []
   flags: []
