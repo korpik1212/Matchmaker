@@ -10,20 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
-  m_Name: can_mariegold
+  m_Name: 2lvl_tar_p.
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterName: Marie
-  characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  characterBio: I'm only here because my parents don't want me to die alone. We'll
-    see what will happen haha
+  characterName: P.
+  characterIcon: {fileID: 0}
+  characterBio: hi, would be nice to find someone kinda simlar to me to hang out
+    with
   interests:
-  - gardening
-  - music
+  - games
   - films
+  - music
   promptList:
-  - promptText: 'I wind down by: '
-    answerText: making myself cozy at home
+  - promptText: 'I recently discovered that:'
+    answerText: Talkative people are really exhausting
   tags:
-  - family-oriented
+  - nerdy
   - introverted
-  flags: []
+  flags:
+  - type: 1
+    searchType: 0
+    tag: introverted
+  - type: 0
+    searchType: 0
+    tag: nerdy
+  - type: 0
+    searchType: 0
+    tag: family_oriented

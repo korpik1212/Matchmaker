@@ -10,20 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
-  m_Name: can_mariegold
+  m_Name: empty 1
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterName: Marie
+  characterName: Crianus
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  characterBio: I'm only here because my parents don't want me to die alone. We'll
-    see what will happen haha
+  characterBio: "\u201CBe tolerant with others and strict with yourself.\u201D \u2013
+    Marcus Aurelius \u201CIf a man knows not which port he sails, no wind is favorable.\u201D
+    \u2013 Seneca"
   interests:
-  - gardening
-  - music
-  - films
+  - sports
+  - finance (bro)
+  - nightlife
   promptList:
-  - promptText: 'I wind down by: '
-    answerText: making myself cozy at home
+  - promptText: 'My greatest strength: '
+    answerText: money
   tags:
-  - family-oriented
-  - introverted
+  - career_driven
+  - jock
   flags: []
