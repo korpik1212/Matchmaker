@@ -10,20 +10,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
-  m_Name: can_mariegold
+  m_Name: lvl3_tar_lydia
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterName: Marie
+  characterName: Lydia
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  characterBio: I'm only here because my parents don't want me to die alone. We'll
-    see what will happen haha
+  characterBio: Meet me at full moon.
   interests:
-  - gardening
+  - nightlife
   - music
-  - films
+  - sports
   promptList:
-  - promptText: 'I wind down by: '
-    answerText: making myself cozy at home
+  - promptText: 'I''m incredibly good at: Mixing cocktails.'
+    answerText: Come to me to taste the best whisky sour.
   tags:
-  - family-oriented
-  - introverted
-  flags: []
+  - not_vegan
+  - jock
+  - casual
+  flags:
+  - type: 3
+    searchType: 0
+    tag: family_oriented
+  - type: 3
+    searchType: 0
+    tag: career_driven
+  - type: 1
+    searchType: 0
+    tag: smoker
+  - type: 1
+    searchType: 0
+    tag: casual
+  - type: 0
+    searchType: 0
+    tag: nerdy

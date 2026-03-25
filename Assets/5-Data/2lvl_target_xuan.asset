@@ -10,20 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
-  m_Name: can_mariegold
+  m_Name: 2lvl_target_xuan
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterName: Marie
+  characterName: Yu-Xuan
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  characterBio: I'm only here because my parents don't want me to die alone. We'll
-    see what will happen haha
+  characterBio: "Wanna grab ramyon & bubble tea together?      (\u273F\u02F5\u2022\u0301
+    \u03C9 \u2022\u0300\u02F5)"
   interests:
-  - gardening
   - music
-  - films
+  - programming
+  - artsy
   promptList:
-  - promptText: 'I wind down by: '
-    answerText: making myself cozy at home
+  - promptText: 'I go crazy for:'
+    answerText: ANYTHING CUTE11!!
   tags:
-  - family-oriented
-  - introverted
-  flags: []
+  - extroverted
+  - nerdy
+  flags:
+  - type: 1
+    searchType: 0
+    tag: extroverted
+  - type: 1
+    searchType: 0
+    tag: introverted
+  - type: 1
+    searchType: 0
+    tag: serious_relationship
+  - type: 0
+    searchType: 0
+    tag: nerdy
