@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: tar_Aki_lvl1
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts:
+  - asdasdsa
   characterName: Aki
   characterIcon: {fileID: 6555634847306763671, guid: d7e8541beebbbde458a1e9a3f4536b22, type: 3}
   characterBio: Just trying this app out. Who knows what will happen :)
@@ -19,16 +21,9 @@ MonoBehaviour:
   - artsy
   - sports
   - games
-  promptList:
-  - promptText: 
-    answerText: 
-  - promptText: 
-    answerText: 
+  promptList: []
   tags:
-  - 
-  - 
-  - 
-  flags:
-  - type: 3
-    searchType: 1
-    tag: anime
+  - artsy
+  - sports
+  - games
+  flags: []

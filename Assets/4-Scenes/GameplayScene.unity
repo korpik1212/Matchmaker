@@ -531,11 +531,17 @@ MonoBehaviour:
   tutorialTargetCharacter: {fileID: 11400000, guid: 0a4a36a1e6af1494eb2a0b3a846dfabd, type: 2}
   tutorialCandidateCharacters:
   - {fileID: 11400000, guid: 8a38913a8d1143b4295a22d68ea255b5, type: 2}
+  - {fileID: 11400000, guid: 33739bc38d370944ba533470bc1b2664, type: 2}
+  - {fileID: 11400000, guid: 3ddc5343c9deeae40a313e9b50a71bde, type: 2}
+  - {fileID: 11400000, guid: 47109af2ce8a74944984633ff195984e, type: 2}
+  - {fileID: 11400000, guid: 75bfbfe82e216644ea35e71eecf0d19e, type: 2}
   - {fileID: 11400000, guid: d2e72d7c039e8804ba0e1e35d9708202, type: 2}
-  - {fileID: 11400000, guid: 0a4a36a1e6af1494eb2a0b3a846dfabd, type: 2}
   candidatePrefab: {fileID: 7616850671778551604, guid: eb955ad37e364ae479a698a61f837119, type: 3}
   candidateGrid: {fileID: 381900843}
+  canvas: {fileID: 808837487}
   feedbackPrefab: {fileID: 3886052320109309628, guid: 6163be97b2b19864088049046974ebbf, type: 3}
+  ratingText: {fileID: 1916301469}
+  ratingList: 
 --- !u!1 &381900842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,7 +1662,7 @@ GameObject:
   - component: {fileID: 803764516}
   - component: {fileID: 803764515}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: InfoText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

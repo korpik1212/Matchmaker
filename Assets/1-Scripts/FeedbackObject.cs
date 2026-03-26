@@ -9,6 +9,13 @@ public class FeedbackObject : MonoBehaviour
     public Image[] startImages = new Image[5];
     public TextMeshProUGUI feedbackText;
 
+
+    private void Start()
+    {
+        Destroy(this.gameObject, 2f);
+    }
+
+
     public void SetupFeedback(string text,int starCount)
     {
 

@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections.Generic;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,6 +19,10 @@ public class GameManager : MonoBehaviour
 
     public Transform canvas;
     public FeedbackObject feedbackPrefab;
+
+
+
+    public TextMeshProUGUI ratingText;
     private void Awake()
     {
         if (instance == null)
@@ -31,6 +37,11 @@ public class GameManager : MonoBehaviour
     public void Start()
     {
         SetupTutorialCharacters();
+        ratingList.Add(1);
+        ratingList.Add(1);
+        ratingList.Add(1);
+        ratingList.Add(1);
+        ratingList.Add(1);
     }
 
     public void SetupTutorialCharacters()
@@ -51,13 +62,51 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("compatibility score:" + TargetInfo.instance.character.CheckCompability(CandidateClickInfo.instance.currentlySelectedCharacter));
         float val = TargetInfo.instance.character.CheckCompability(CandidateClickInfo.instance.currentlySelectedCharacter);
-        int starValue=GetStarValue(val);
-        CreatePrefabObject(TargetInfo.instance.character.data.feedbackTexts[0], starValue);
+        int starValue = GetStarValue(val);
+       // string feedbackText = TargetInfo.instance.character.data.feedbackTexts[0];
+        CreatePrefabObject("helo", starValue);
+        ChangeRating(starValue);
         //instantiate feedback prefab 
 
 
 
     }
+
+
+
+    public List<int> ratingList = new List<int>();
+
+    public void ChangeRating(int starValue)
+    {
+
+
+        ratingList.Add(starValue);
+
+        float average = 0;
+        foreach (int rating in ratingList)
+        {
+            average += rating;
+        }
+        average /= ratingList.Count;
+        ratingText.text = "Rating: " + average.ToString("0.0") + " / 5";
+
+        //showcase new rating avarage
+    }
+
+
+
+    public void CreatePrefabObject(string feedbackText, int starCount)
+    {
+        FeedbackObject newFeedback = Instantiate(feedbackPrefab, canvas);
+        newFeedback.SetupFeedback(feedbackText, starCount);
+
+
+    }
+
+
+
+
+
 
     public int GetStarValue(float val)
     {
@@ -84,18 +133,4 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void ChangeRating(int starValue)
-    {
-
-    }
-
-
-
-    public void CreatePrefabObject(string feedbackText, int starCount)
-    {
-        FeedbackObject newFeedback = Instantiate(feedbackPrefab, canvas);
-        newFeedback.SetupFeedback(feedbackText, starCount);
-
-
-    }
-    }
+}
