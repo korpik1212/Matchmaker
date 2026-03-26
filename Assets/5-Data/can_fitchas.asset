@@ -24,7 +24,7 @@ MonoBehaviour:
   - sports
   - music
   - gardening
-  - finance (bro)
+  - finance
   - films
   - programing
   - cooking
@@ -33,6 +33,5 @@ MonoBehaviour:
   - promptText: 'My greatest strength: '
     answerText: Greatest Karate and Shaoling fighter in China btw
   tags:
-  - introverted
-  - casual
+  - everything
   flags: []

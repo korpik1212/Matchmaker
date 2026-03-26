@@ -21,7 +21,7 @@ MonoBehaviour:
     \u2013 Seneca"
   interests:
   - sports
-  - finance (bro)
+  - finance
   - nightlife
   promptList:
   - promptText: 'I want someone who:'
@@ -30,6 +30,9 @@ MonoBehaviour:
   - jock
   - extroverted
   - casual
+  - sports
+  - finance (bro)
+  - nightlife
   flags:
   - type: 0
     searchType: 0

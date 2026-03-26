@@ -22,7 +22,7 @@ MonoBehaviour:
   interests:
   - music
   - artsy
-  - finance (bro)
+  - finance
   - nightlife
   promptList:
   - promptText: 'My BFF''s take on why you should date me: '

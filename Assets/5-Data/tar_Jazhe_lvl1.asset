@@ -21,7 +21,7 @@ MonoBehaviour:
   interests:
   - nightlife
   - programing
-  - finance (bro)
+  - finance
   promptList: []
   tags: []
   flags: []

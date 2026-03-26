@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: can_Sardine
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts: []
   characterName: Sardine
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   characterBio: Talk less and talk quick. I got places to be.
   interests:
-  - finance (bro)
+  - finance
   - nightlife
   promptList:
   - promptText: 'My greatest strength: '
