@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
 using System.Collections;
+using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class GameManager : MonoBehaviour
     public List<CharacterData> allCandidates = new List<CharacterData>();
     public TextMeshProUGUI ratingText;
     public List<int> ratingList = new List<int>();
+
+
+
+    public MatchAnimationSequence matchAnimationSequence;
 
     private void Awake()
     {
@@ -55,9 +60,13 @@ public class GameManager : MonoBehaviour
         if (dayTime >= days[dayInexd].targetDatas.Count)
         {
             FinishDay();
+            AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.endOfDayAudio);
+
         }
         else
         {
+            AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.nextTargetAudio);
+
             TargetInfo.instance.ChangeCurrentData(days[dayInexd].targetDatas[dayTime]);
         }
     }
@@ -115,6 +124,11 @@ public class GameManager : MonoBehaviour
 
     public void Match()
     {
+        if (CandidateClickInfo.instance.currentlySelectedCharacter == null) return;
+
+        AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.buttonClickAudio);
+
+
         StartCoroutine(MatchLoop());
     }
 
@@ -123,10 +137,23 @@ public class GameManager : MonoBehaviour
         float val = TargetInfo.instance.character.CheckCompability(CandidateClickInfo.instance.currentlySelectedCharacter);
         int starValue = GetStarValue(val);
 
+        AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.matchAudio);
+        matchAnimationSequence.PlayMatchAnimation(TargetInfo.instance.character.data, CandidateClickInfo.instance.currentlySelectedCharacter.data);
+
         Destroy(CandidateClickInfo.instance.currentlySelectedCharacter.gameObject);
 
         yield return new WaitForSeconds(1f);
 
+        if (val > 0.5f)
+        {
+            AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.goodMatchAudio);
+
+        }
+        else
+        {
+            AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.badMatchAudio);
+
+        }
         CreatePrefabObject("helo", starValue);
         ChangeRating(starValue);
 
@@ -137,17 +164,26 @@ public class GameManager : MonoBehaviour
         OnTargetFinished();
     }
 
+    private float currentDisplayedAverage = 0f;
+
     public void ChangeRating(int starValue)
     {
         ratingList.Add(starValue);
 
-        float average = 0;
+        float newAverage = 0;
         foreach (int rating in ratingList)
         {
-            average += rating;
+            newAverage += rating;
         }
-        average /= ratingList.Count;
-        ratingText.text = "Rating: " + average.ToString("0.0") + " / 5";
+        newAverage /= ratingList.Count;
+
+        DOTween.To(() => currentDisplayedAverage, x =>
+        {
+            currentDisplayedAverage = x;
+            ratingText.text = "Rating: " + currentDisplayedAverage.ToString("0.0") + " / 5";
+        }, newAverage, 0.5f).SetEase(Ease.OutCubic);
+
+        ratingText.transform.DOPunchScale(Vector3.one * 0.2f, 0.3f, 5, 1).SetUpdate(true);
     }
 
     public void CreatePrefabObject(string feedbackText, int starCount)
