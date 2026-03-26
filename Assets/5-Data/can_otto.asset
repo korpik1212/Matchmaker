@@ -12,14 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: can_otto
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterName: 
+  feedbackTexts: []
+  characterName: Otto
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  characterBio: asdasdsa
+  characterBio: Good Morning, Afternoon, and Evening people! No need to date, lets
+    just talk.
   interests:
-  - 
-  - 
+  - nightlife
+  - films
+  - games
   promptList:
-  - promptText: 
-    answerText: 
-  tags: []
+  - promptText: 'I hype myself up by: '
+    answerText: Thinking about my friends and family and loved ones
+  tags:
+  - casual
+  - extroverted
   flags: []

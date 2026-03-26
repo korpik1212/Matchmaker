@@ -13,10 +13,19 @@ MonoBehaviour:
   m_Name: can_vanya_nala
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts: []
-  characterName: 
+  characterName: Vanya & Nala
   characterIcon: {fileID: 0}
-  characterBio: 
-  interests: []
-  promptList: []
-  tags: []
+  characterBio: We'd love to meet someone who also loves creating cool stuff and
+    filling out sketchbooks. Vanya likes sculpting and build snowmen, Nala loves
+    to do Collage!
+  interests:
+  - arsty
+  - films
+  - music
+  promptList:
+  - promptText: 'The world would be a better place with more:'
+    answerText: polyamory!
+  tags:
+  - extroverted
+  - family_oriented
   flags: []

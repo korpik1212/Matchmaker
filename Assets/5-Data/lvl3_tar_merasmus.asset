@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: lvl3_tar_merasmus
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts:
+  - As prophesied. You have been blessed by Elune.45
+  - ... This is not part of my  future ...123
   characterName: Merasmus
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   characterBio: Light falls on both the wicked and the blessed. But only the beautiful

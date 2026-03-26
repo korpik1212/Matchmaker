@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: tar_Jazhe_lvl1
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts:
+  - cool good job345
+  - NOOO! wrong12
   characterName: Jazhe
   characterIcon: {fileID: 3523672269167575020, guid: c69e7d53ef309914389ff0ca01956215, type: 3}
   characterBio: wE MEET UP.?
   interests:
   - nightlife
-  - programming
+  - programing
   - finance (bro)
   promptList: []
   tags: []

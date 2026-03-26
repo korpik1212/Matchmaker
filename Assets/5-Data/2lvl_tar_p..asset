@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: 2lvl_tar_p.
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts:
+  - Oh, their actually really nice...45
+  - Hm... what did i even expect...123
   characterName: P.
   characterIcon: {fileID: 0}
   characterBio: hi, would be nice to find someone kinda simlar to me to hang out

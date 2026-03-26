@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: lvl2_tar_fedayen
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts:
+  - Hehe, you got it. Not too sweet and not to salty.45
+  - BAH! Who tf is that?123
   characterName: Fedayen
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   characterBio: Just hmu I don't bite. Not intrested in something casual
@@ -32,3 +35,6 @@ MonoBehaviour:
   - type: 0
     searchType: 0
     tag: serious_relationship
+  - type: 2
+    searchType: 0
+    tag: casual

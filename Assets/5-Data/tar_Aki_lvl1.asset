@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: tar_Aki_lvl1
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts:
-  - asdasdsa
+  - Wonderful! Thanks for the help.345
+  - Hm, perhpas not quite right.12
   characterName: Aki
   characterIcon: {fileID: 6555634847306763671, guid: d7e8541beebbbde458a1e9a3f4536b22, type: 3}
   characterBio: Just trying this app out. Who knows what will happen :)

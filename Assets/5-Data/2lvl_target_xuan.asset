@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: 2lvl_target_xuan
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts:
+  - WaAaAaa! How awsome~~~~ xDD ThxxsXoXo345
+  - ... srsly? why?12
   characterName: Yu-Xuan
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   characterBio: "Wanna grab ramyon & bubble tea together?      (\u273F\u02F5\u2022\u0301
     \u03C9 \u2022\u0300\u02F5)"
   interests:
   - music
-  - programming
+  - programing
   - artsy
   promptList:
   - promptText: 'I go crazy for:'

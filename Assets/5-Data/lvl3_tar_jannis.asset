@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: lvl3_tar_jannis
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts:
+  - Go get them tiger. You got this, Jannis. You got this!45
+  - SYNTAX ERROR! LOGIC ERROR! ERROR ERROR ERROR!!!123
   characterName: Jannis
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  characterBio: Meet me at full moon.
+  characterBio: static main func love4ever:{ if(You == Gamer Artist && Me == Gamer
+    Programer); print("Lets hang out!") else(); return }
   interests:
   - games
   - programing
