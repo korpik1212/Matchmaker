@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts: []
   characterName: Hamir
-  characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  characterIcon: {fileID: 1671050458871156752, guid: 06f1f1f3cd63d06478d59e8c1c726421, type: 3}
   characterBio: metal, moshpits, punching nazis, and non-animal baking
   interests:
   - music

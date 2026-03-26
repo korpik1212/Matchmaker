@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts: []
   characterName: Fitchas
-  characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  characterIcon: {fileID: -7382865430405810795, guid: 84d1000b7f3425c4586f12e588f2ec23, type: 3}
   characterBio: WHats UP! taking a break from my lead-role in the new upcoming movie,
     but thats all convidential ;) otherwise just golving and working on a new single
     lmao. so whar r u up to?
