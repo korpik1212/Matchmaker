@@ -12,14 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: can_fitchas
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterName: 
+  feedbackTexts: []
+  characterName: Fitchas
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  characterBio: asdasdsa
+  characterBio: WHats UP! taking a break from my lead-role in the new upcoming movie,
+    but thats all convidential ;) otherwise just golving and working on a new single
+    lmao. so whar r u up to?
   interests:
-  - 
-  - 
+  - games
+  - artsy
+  - sports
+  - music
+  - gardening
+  - finance (bro)
+  - films
+  - programing
+  - cooking
+  - nightlife
   promptList:
-  - promptText: 
-    answerText: 
-  tags: []
+  - promptText: 'My greatest strength: '
+    answerText: Greatest Karate and Shaoling fighter in China btw
+  tags:
+  - introverted
+  - casual
   flags: []
