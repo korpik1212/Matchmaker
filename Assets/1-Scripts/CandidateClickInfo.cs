@@ -18,7 +18,8 @@ public class CandidateClickInfo : MonoBehaviour
     public Transform promptContainer;
     public PromptObject promptPrefab;
 
-
+    public GameObject emptyCandidateInfoWindow;
+    public bool isEmpty = false;
 
     private void Awake()
     {
@@ -38,10 +39,22 @@ public class CandidateClickInfo : MonoBehaviour
         UpdateInfoWithData(character.data);
     }
 
+    public void ClearInfo()
+    {
+        emptyCandidateInfoWindow.SetActive(true);
+        currentlySelectedCharacter = null;
+        isEmpty = true;
+    }
+
     public void UpdateInfoWithData(CharacterData data)
     {
         if (data == null) return;
 
+        if (isEmpty)
+        {
+            emptyCandidateInfoWindow.SetActive(false);
+            isEmpty = false;
+        }
         characterImage.sprite = data.characterIcon;
         characterName.text = data.characterName;
         aboutMeText.text = data.characterBio;
