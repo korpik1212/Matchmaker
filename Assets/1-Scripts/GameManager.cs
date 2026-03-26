@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
         ratingList.Add(1);
         ratingList.Add(1);
         ratingList.Add(1);
-        ratingList.Add(1);
+        ChangeRating(1);
     }
 
     public void SetupTutorialCharacters()
@@ -147,14 +147,26 @@ public class GameManager : MonoBehaviour
         if (val > 0.5f)
         {
             AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.goodMatchAudio);
-
         }
         else
         {
             AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.badMatchAudio);
-
         }
-        CreatePrefabObject("helo", starValue);
+
+        string selectedFeedback = "";
+        string starString = starValue.ToString();
+
+        foreach (string text in TargetInfo.instance.character.data.feedbackTexts)
+        {
+            if (text.Contains(starString))
+            {
+                selectedFeedback = System.Text.RegularExpressions.Regex.Replace(text, "[1-5]", "").Trim();
+                break;
+            }
+        }
+
+        CreatePrefabObject(selectedFeedback, starValue);
+
         ChangeRating(starValue);
 
         CandidateClickInfo.instance.ClearInfo();
@@ -163,6 +175,7 @@ public class GameManager : MonoBehaviour
 
         OnTargetFinished();
     }
+    
 
     private float currentDisplayedAverage = 0f;
 
