@@ -3137,6 +3137,7 @@ GameObject:
   - component: {fileID: 1759760993}
   - component: {fileID: 1759760992}
   - component: {fileID: 1759760991}
+  - component: {fileID: 1759760994}
   m_Layer: 5
   m_Name: MatchButton
   m_TagString: Untagged
@@ -3258,6 +3259,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759760989}
   m_CullTransparentMesh: 1
+--- !u!114 &1759760994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759760989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e684e7fc61d21e48bd89ba0fd3fc302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  shrinkScale: 0.9
+  animationDuration: 0.2
+  bounceAmount: {x: 0.2, y: 0.2, z: 0.2}
+  bounceDuration: 0.3
 --- !u!1001 &1766546097
 PrefabInstance:
   m_ObjectHideFlags: 0
