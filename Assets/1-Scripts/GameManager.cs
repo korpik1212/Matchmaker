@@ -142,7 +142,7 @@ public class GameManager : MonoBehaviour
 
         Destroy(CandidateClickInfo.instance.currentlySelectedCharacter.gameObject);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(4f);
 
         if (val > 0.5f)
         {

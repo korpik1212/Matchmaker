@@ -22,13 +22,7 @@ MonoBehaviour:
   - artsy
   - sports
   - games
-  promptList:
-  - promptText: asd
-    answerText: sad
-  - promptText: sss
-    answerText: ssss
-  - promptText: sdadsa
-    answerText: dsadasdsa
+  promptList: []
   tags:
   - artsy
   - sports
