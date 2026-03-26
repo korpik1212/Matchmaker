@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
-  m_Name: empty 1
+  m_Name: can_crianus
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts:
+  - 
   characterName: Crianus
   characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   characterBio: "\u201CBe tolerant with others and strict with yourself.\u201D \u2013
@@ -22,9 +24,19 @@ MonoBehaviour:
   - finance (bro)
   - nightlife
   promptList:
-  - promptText: 'My greatest strength: '
-    answerText: money
+  - promptText: 'I want someone who:'
+    answerText: Can hold me as I do a keg stand POWER!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   tags:
-  - career_driven
   - jock
-  flags: []
+  - extroverted
+  - casual
+  flags:
+  - type: 0
+    searchType: 0
+    tag: jock
+  - type: 0
+    searchType: 0
+    tag: extroverted
+  - type: 0
+    searchType: 0
+    tag: casual
