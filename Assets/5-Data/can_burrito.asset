@@ -17,7 +17,7 @@ MonoBehaviour:
   characterIcon: {fileID: 9192687251970799782, guid: adb13a33c2d648a499b8018bd2513ca6, type: 3}
   characterBio: What's your faviourte tummy feeling? :)
   interests:
-  - music
+  - sports
   - artsy
   - games
   promptList:
@@ -26,4 +26,7 @@ MonoBehaviour:
   tags:
   - extroverted
   - nerdy
+  - music
+  - artsy
+  - games
   flags: []

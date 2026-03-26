@@ -30,11 +30,15 @@ MonoBehaviour:
   tags:
   - extroverted
   - casual
+  - music
+  - artsy
+  - finance
+  - nightlife
   flags:
   - type: 1
     searchType: 0
     tag: music
-  - type: 0
+  - type: 1
     searchType: 0
     tag: jock
   - type: 2

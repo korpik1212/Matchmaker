@@ -29,6 +29,8 @@ MonoBehaviour:
   - cooking
   - finance (bro)
   - games
+  - finance
+  - artsy
   flags:
   - type: 0
     searchType: 0

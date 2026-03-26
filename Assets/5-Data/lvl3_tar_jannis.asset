@@ -29,16 +29,21 @@ MonoBehaviour:
   - career_driven
   - introverted
   - nerdy
+  - games
+  - programing
   flags:
   - type: 1
     searchType: 0
     tag: games
   - type: 0
     searchType: 0
-    tag: introverted
+    tag: extroverted
   - type: 2
     searchType: 0
     tag: casual
   - type: 2
     searchType: 0
     tag: jock
+  - type: 1
+    searchType: 0
+    tag: family-oriented

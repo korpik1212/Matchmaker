@@ -29,6 +29,8 @@ MonoBehaviour:
   tags:
   - serious_relationship
   - introverted
+  - artsy
+  - nightlife
   flags:
   - type: 1
     searchType: 0
@@ -36,3 +38,6 @@ MonoBehaviour:
   - type: 0
     searchType: 0
     tag: serious_relationship
+  - type: 0
+    searchType: 0
+    tag: family-oriented

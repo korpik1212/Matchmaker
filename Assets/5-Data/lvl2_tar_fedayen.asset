@@ -20,7 +20,7 @@ MonoBehaviour:
   characterBio: Just hmu I don't bite. Not intrested in something casual
   interests:
   - gardening
-  - sports
+  - music
   - cooking
   promptList:
   - promptText: 'I''m weirdly attracted to:'
@@ -28,6 +28,9 @@ MonoBehaviour:
   tags:
   - vegan
   - serious_relationship
+  - gardening
+  - sports
+  - cooking
   flags:
   - type: 1
     searchType: 0
