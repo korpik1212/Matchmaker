@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts: []
   characterName: Aitken
-  characterIcon: {fileID: 0}
+  characterIcon: {fileID: -5198806497043507804, guid: e2bbdfe09c2d8d0459a42430bc0dc373, type: 3}
   characterBio: Will you go with me on this wild adventure called life?
   interests:
   - cooking

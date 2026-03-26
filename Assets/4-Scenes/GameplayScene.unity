@@ -634,8 +634,24 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 0a4a36a1e6af1494eb2a0b3a846dfabd, type: 2}
     - {fileID: 11400000, guid: 4c8c2c40d194ea843b8b27a1646a7df6, type: 2}
     fixedCandidates:
-    - {fileID: 11400000, guid: 660c970af181d7446bd5c450a06f123a, type: 2}
-    - {fileID: 11400000, guid: 01fb0e4452a347644a7c1c68da7407fd, type: 2}
+    - {fileID: 11400000, guid: 8a38913a8d1143b4295a22d68ea255b5, type: 2}
+    - {fileID: 11400000, guid: f9331e08c46b90c4a98f9642bd1f674d, type: 2}
+    candidateCount: 4
+  - targetDatas:
+    - {fileID: 11400000, guid: bbeeb116bfe9554479d6e8c32105587d, type: 2}
+    - {fileID: 11400000, guid: a2ffce8563dbe1b4285a3875c657098b, type: 2}
+    - {fileID: 11400000, guid: f043043ed91094148a70832b4aa2d45f, type: 2}
+    fixedCandidates:
+    - {fileID: 11400000, guid: d2e72d7c039e8804ba0e1e35d9708202, type: 2}
+    - {fileID: 11400000, guid: 75bfbfe82e216644ea35e71eecf0d19e, type: 2}
+    - {fileID: 11400000, guid: 47109af2ce8a74944984633ff195984e, type: 2}
+    candidateCount: 4
+  - targetDatas:
+    - {fileID: 11400000, guid: e783079aad7dabe4aa110eb5eb8a60b3, type: 2}
+    - {fileID: 11400000, guid: 2b1203b995c948948984832bb96a1a74, type: 2}
+    - {fileID: 11400000, guid: 70dff39d46363a641b73deb139f54f51, type: 2}
+    - {fileID: 11400000, guid: cdff5cf4780eb2843bedc4cff3eccfa0, type: 2}
+    fixedCandidates: []
     candidateCount: 4
   dayTime: 0
   dayInexd: -1
