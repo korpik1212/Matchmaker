@@ -15,7 +15,7 @@ MonoBehaviour:
   feedbackTexts:
   - 
   characterName: Crianus
-  characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  characterIcon: {fileID: 3062773487943192369, guid: 4ef764cc61f855240a29d7e663586d8a, type: 3}
   characterBio: "\u201CBe tolerant with others and strict with yourself.\u201D \u2013
     Marcus Aurelius \u201CIf a man knows not which port he sails, no wind is favorable.\u201D
     \u2013 Seneca"

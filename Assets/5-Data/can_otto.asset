@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts: []
   characterName: Otto
-  characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  characterIcon: {fileID: -6188258268381098719, guid: 94d2b5067d172d04f8eb99d60a0becd2, type: 3}
   characterBio: Good Morning, Afternoon, and Evening people! No need to date, lets
     just talk.
   interests:

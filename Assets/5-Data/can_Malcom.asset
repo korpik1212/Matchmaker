@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts: []
   characterName: Malcom
-  characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  characterIcon: {fileID: -971021071000554563, guid: fff60f94475327d47964455bbf25b511, type: 3}
   characterBio: 'Pretty wild pfp, right? Haha Hi I''m Malcom. Besides speedracing
     I also enjoy more quite things ^^ So don''t worry, I can also slow down. '
   interests:

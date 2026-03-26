@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: can_burrito
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts: []
   characterName: Burrito
-  characterIcon: {fileID: 0}
+  characterIcon: {fileID: 9192687251970799782, guid: adb13a33c2d648a499b8018bd2513ca6, type: 3}
   characterBio: What's your faviourte tummy feeling? :)
   interests:
   - music

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d7e8541beebbbde458a1e9a3f4536b22
+guid: fff60f94475327d47964455bbf25b511
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6555634847306763671
-    second: Target_lvl1_aki_0
+      213: -971021071000554563
+    second: Malcom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Target_lvl1_aki_0
+      name: Malcom_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 480
-        height: 400
+        width: 700
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79d44ee092b4afa50800000000000000
-      internalID: 6555634847306763671
+      spriteID: db3b7990b7d3682f0800000000000000
+      internalID: -971021071000554563
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Target_lvl1_aki_0: 6555634847306763671
+      Malcom_0: -971021071000554563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

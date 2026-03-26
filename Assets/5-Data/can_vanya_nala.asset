@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts: []
   characterName: Vanya & Nala
-  characterIcon: {fileID: 0}
+  characterIcon: {fileID: -1414559010322358271, guid: cd941cf26e5a45e468c97fc8341ae859, type: 3}
   characterBio: We'd love to meet someone who also loves creating cool stuff and
     filling out sketchbooks. Vanya likes sculpting and build snowmen, Nala loves
     to do Collage!

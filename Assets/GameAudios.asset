@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13717f48b1cbe59439f1da82ce4cf85c, type: 3}
   m_Name: GameAudios
   m_EditorClassIdentifier: Assembly-CSharp::GameAudios
-  matchAudio: {fileID: 0}
+  matchAudio: {fileID: 8300000, guid: 9f5f871a50bad584d992399553dfad45, type: 3}
   goodMatchAudio: {fileID: 8300000, guid: 308e21024cd2104409f02b26f19075bd, type: 3}
   badMatchAudio: {fileID: 8300000, guid: 23f4521e74fc2534399633d971c745fc, type: 3}
   badMatchAudio2: {fileID: 8300000, guid: 4d3ffaeb0b8d23c4bb782e4701cd54bd, type: 3}
   nextTargetAudio: {fileID: 8300000, guid: ac12532f770b6ba40b5bc97551565c97, type: 3}
-  buttonClickAudio: {fileID: 0}
+  buttonClickAudio: {fileID: 8300000, guid: e5de24104d8b94f4496dc202a5a00902, type: 3}
   endOfDayAudio: {fileID: 8300000, guid: dfbef148d9e357c46bc5215a95a90823, type: 3}
   mouseClickAudio: {fileID: 8300000, guid: 6675d71e73916fd4e8a976ea033c632a, type: 3}
   startGameClickAudio: {fileID: 8300000, guid: 8084f962ab0ca0242a8423f8345a472b, type: 3}

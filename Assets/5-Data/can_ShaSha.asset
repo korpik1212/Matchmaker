@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
-  m_Name: can_Sardine
+  m_Name: can_ShaSha
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts: []
-  characterName: Sardine
-  characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  characterName: ShaSha
+  characterIcon: {fileID: -2902648884781604747, guid: 7cf4227531ba40842af2dd4729fe27fb, type: 3}
   characterBio: Talk less and talk quick. I got places to be.
   interests:
   - finance

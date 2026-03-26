@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c69e7d53ef309914389ff0ca01956215
+guid: d7daa19a531dfa74db8def4d3392a99d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3523672269167575020
-    second: Target_Jazhe_lvl1_0
+      213: -5683287735364001847
+    second: tar_lydia_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Target_Jazhe_lvl1_0
+      name: tar_lydia_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cefb0a4724996e030800000000000000
-      internalID: 3523672269167575020
+      spriteID: 9cf5b418ae7e021b0800000000000000
+      internalID: -5683287735364001847
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Target_Jazhe_lvl1_0: 3523672269167575020
+      tar_lydia_0: -5683287735364001847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

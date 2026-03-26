@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8916298b76c0ac45841bc1bf69dead9, type: 3}
   m_Name: can_wolfgang
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  feedbackTexts: []
   characterName: Wolfgang
-  characterIcon: {fileID: 0}
+  characterIcon: {fileID: -8157677608414222883, guid: 485a65fcc390199478cf114f72f853d1, type: 3}
   characterBio: Long walks on the beach, forest, rual city, the grocery store, and
     anywhere else.
   interests:

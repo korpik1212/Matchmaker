@@ -16,7 +16,7 @@ MonoBehaviour:
   - Go get them tiger. You got this, Jannis. You got this!45
   - SYNTAX ERROR! LOGIC ERROR! ERROR ERROR ERROR!!!123
   characterName: Jannis
-  characterIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  characterIcon: {fileID: 2283404543251012616, guid: 88ddeda9f3f08bb46b3ce0d9efc6df5e, type: 3}
   characterBio: static main func love4ever:{ if(You == Gamer Artist && Me == Gamer
     Programer); print("Lets hang out!") else(); return }
   interests:
