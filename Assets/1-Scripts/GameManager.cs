@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     public Transform candidateGrid;
 
 
+    public List<DayInfo> days;
+    public int dayTime = 0;
+    public int dayInexd = 0;
 
     public Transform canvas;
     public FeedbackObject feedbackPrefab;
@@ -57,6 +60,20 @@ public class GameManager : MonoBehaviour
     }
 
 
+
+    public void OnTargetFinished()
+    {
+        TargetInfo.instance.ChangeCurrentData(days[dayInexd].targetDatas[dayTime]);
+        dayTime++;
+        //bring out new target 
+        //if no acceptable targets 
+    }
+    public void FinishDay()
+    {
+        dayInexd++;
+    }
+
+
     public void Match()
     {
 
@@ -66,6 +83,9 @@ public class GameManager : MonoBehaviour
        // string feedbackText = TargetInfo.instance.character.data.feedbackTexts[0];
         CreatePrefabObject("helo", starValue);
         ChangeRating(starValue);
+
+        Destroy(CandidateClickInfo.instance.currentlySelectedCharacter.gameObject);
+        OnTargetFinished();
         //instantiate feedback prefab 
 
 
@@ -132,5 +152,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
+}
+
+
+[System.Serializable]
+public class DayInfo
+{
+    public List<CharacterData> targetDatas = new List<CharacterData>();
 
 }
