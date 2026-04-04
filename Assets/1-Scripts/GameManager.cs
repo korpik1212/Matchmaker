@@ -22,8 +22,6 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI ratingText;
     public List<int> ratingList = new List<int>();
 
-
-
     public MatchAnimationSequence matchAnimationSequence;
 
     private void Awake()
@@ -59,17 +57,33 @@ public class GameManager : MonoBehaviour
 
         if (dayTime >= days[dayInexd].targetDatas.Count)
         {
+            if (dayInexd >= days.Count - 1)
+            {
+                OnAllDaysFinished();
+                return;
+            }
+
             FinishDay();
             AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.endOfDayAudio);
-
         }
         else
         {
             AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.nextTargetAudio);
-
             TargetInfo.instance.ChangeCurrentData(days[dayInexd].targetDatas[dayTime]);
         }
     }
+
+    public GameObject gameGrid;
+    public Ending ending;
+    public void OnAllDaysFinished()
+    {
+
+        gameGrid.SetActive(false);
+        ending.gameObject.SetActive(true);
+        ending.TriggerEnd();
+    }
+
+
 
     public void FinishDay()
     {
@@ -128,7 +142,6 @@ public class GameManager : MonoBehaviour
 
         AudioManager.instance.PlayAudio(AudioManager.instance.gameAudios.buttonClickAudio);
 
-
         StartCoroutine(MatchLoop());
     }
 
@@ -166,16 +179,13 @@ public class GameManager : MonoBehaviour
         }
 
         CreatePrefabObject(selectedFeedback, starValue);
-
         ChangeRating(starValue);
-
         CandidateClickInfo.instance.ClearInfo();
 
         yield return new WaitForSeconds(2f);
 
         OnTargetFinished();
     }
-    
 
     private float currentDisplayedAverage = 0f;
 
