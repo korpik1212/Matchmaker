@@ -7,10 +7,9 @@ public class PressKeyToStart : MonoBehaviour
 
 
     public List<GameObject> beginningObjects=new List<GameObject>();
-    int currentPage = -1;
+    int currentPage = 0;
     private void Start()
     {
-        currentPage = -1;
     }
     void Update()
     {

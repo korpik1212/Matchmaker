@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 2594b66373bd00c498a0c9965b686962
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2400001257738570093
+    second: itch_banner_0
+  - first:
+      213: -4758702380929624025
+    second: itch_banner_1
+  - first:
+      213: -8668257612860468278
+    second: itch_banner_2
+  - first:
+      213: -200256938587830335
+    second: itch_banner_3
+  - first:
+      213: 279642636653317321
+    second: itch_banner_4
+  - first:
+      213: 9206207193562660835
+    second: itch_banner_5
+  - first:
+      213: 16078773144513724
+    second: itch_banner_6
+  - first:
+      213: -5622171730166092282
+    second: itch_banner_7
+  - first:
+      213: -6352343089446553592
+    second: itch_banner_8
+  - first:
+      213: 7785943592545851315
+    second: itch_banner_9
+  - first:
+      213: 455458173131875401
+    second: itch_banner_10
+  - first:
+      213: -4550076351266751130
+    second: itch_banner_11
+  - first:
+      213: 9153946141138531083
+    second: itch_banner_12
+  - first:
+      213: 1143664272198218014
+    second: itch_banner_13
+  - first:
+      213: 5689925871590914870
+    second: itch_banner_14
+  - first:
+      213: -8962183222980655116
+    second: itch_banner_15
+  - first:
+      213: -3589185452919719647
+    second: itch_banner_16
+  - first:
+      213: 2827411981377047781
+    second: itch_banner_17
+  - first:
+      213: 3996606979952204757
+    second: itch_banner_18
+  - first:
+      213: -8932283639791345676
+    second: itch_banner_19
+  - first:
+      213: -5709025584451521385
+    second: itch_banner_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: itch_banner_0
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 236
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3967004629b71bed0800000000000000
+      internalID: -2400001257738570093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 296
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72852e0b561b5fdb0800000000000000
+      internalID: -4758702380929624025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 24
+        width: 249
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac350e3a0a924b780800000000000000
+      internalID: -8668257612860468278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 236
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c74aa7106b883df0800000000000000
+      internalID: -200256938587830335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_4
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 236
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc46c51f7d71e300800000000000000
+      internalID: 279642636653317321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_5
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 15
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efb2fc7aa403cf70800000000000000
+      internalID: 9206207193562660835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 102
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbce3b91f8f193000800000000000000
+      internalID: 16078773144513724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 105
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ee43559980af1b0800000000000000
+      internalID: -5622171730166092282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 106
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8087126cd91f7d7a0800000000000000
+      internalID: -6352343089446553592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_9
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 105
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b79cea127a3d0c60800000000000000
+      internalID: 7785943592545851315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_10
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 103
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944e29b9bcc125600800000000000000
+      internalID: 455458173131875401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_11
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 103
+        width: 77
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66df6d57aa1ead0c0800000000000000
+      internalID: -4550076351266751130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_12
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 102
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03be930489590f70800000000000000
+      internalID: 9153946141138531083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_13
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 105
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e113eae989c1fdf00800000000000000
+      internalID: 1143664272198218014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_14
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 99
+        width: 142
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b3b760f6da6fe40800000000000000
+      internalID: 5689925871590914870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_15
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 104
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7c546a7ddef9380800000000000000
+      internalID: -8962183222980655116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 102
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12978bdc8d6a03ec0800000000000000
+      internalID: -3589185452919719647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_17
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 105
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec89af773cfc3720800000000000000
+      internalID: 2827411981377047781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_18
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 105
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbd5e29fdcc67730800000000000000
+      internalID: 3996606979952204757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_19
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 103
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff1439da572a0480800000000000000
+      internalID: -8932283639791345676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch_banner_20
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 103
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79476298a7775c0b0800000000000000
+      internalID: -5709025584451521385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      itch_banner_0: -2400001257738570093
+      itch_banner_1: -4758702380929624025
+      itch_banner_10: 455458173131875401
+      itch_banner_11: -4550076351266751130
+      itch_banner_12: 9153946141138531083
+      itch_banner_13: 1143664272198218014
+      itch_banner_14: 5689925871590914870
+      itch_banner_15: -8962183222980655116
+      itch_banner_16: -3589185452919719647
+      itch_banner_17: 2827411981377047781
+      itch_banner_18: 3996606979952204757
+      itch_banner_19: -8932283639791345676
+      itch_banner_2: -8668257612860468278
+      itch_banner_20: -5709025584451521385
+      itch_banner_3: -200256938587830335
+      itch_banner_4: 279642636653317321
+      itch_banner_5: 9206207193562660835
+      itch_banner_6: 16078773144513724
+      itch_banner_7: -5622171730166092282
+      itch_banner_8: -6352343089446553592
+      itch_banner_9: 7785943592545851315
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
