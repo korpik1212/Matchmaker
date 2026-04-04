@@ -871,14 +871,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: d2e72d7c039e8804ba0e1e35d9708202, type: 2}
     - {fileID: 11400000, guid: 75bfbfe82e216644ea35e71eecf0d19e, type: 2}
     - {fileID: 11400000, guid: 47109af2ce8a74944984633ff195984e, type: 2}
-    candidateCount: 4
+    candidateCount: 6
   - targetDatas:
     - {fileID: 11400000, guid: e783079aad7dabe4aa110eb5eb8a60b3, type: 2}
     - {fileID: 11400000, guid: 2b1203b995c948948984832bb96a1a74, type: 2}
     - {fileID: 11400000, guid: 70dff39d46363a641b73deb139f54f51, type: 2}
     - {fileID: 11400000, guid: cdff5cf4780eb2843bedc4cff3eccfa0, type: 2}
     fixedCandidates: []
-    candidateCount: 4
+    candidateCount: 8
   dayTime: 0
   dayInexd: -1
   canvas: {fileID: 808837487}
