@@ -1978,9 +1978,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The algorithm of your app \u201CXXX\u201D stopped working. Now your users
-    are waiting for matches!\nGo quickly to give your user a nice match, otherwise
-    your app will get bad reviews..."
+  m_text: Quickly, manually give your user a nice match, else suffer from bad reviews...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d9229c3b5710b2c4381a746a3692a5b9, type: 2}
   m_sharedMaterial: {fileID: 5812821733019853520, guid: d9229c3b5710b2c4381a746a3692a5b9, type: 2}
@@ -2193,8 +2191,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The algorithm of your app \u201CMatchMaker\u201D stopped working. But
-    your users are waiting for matches!!!\n\nQuickly, manually give your user a nice
-    match, else suffer from bad reviews..."
+    your users are waiting for matches!!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d9229c3b5710b2c4381a746a3692a5b9, type: 2}
   m_sharedMaterial: {fileID: 5812821733019853520, guid: d9229c3b5710b2c4381a746a3692a5b9, type: 2}

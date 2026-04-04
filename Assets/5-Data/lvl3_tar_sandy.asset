@@ -20,10 +20,9 @@ MonoBehaviour:
   characterBio: Looking for someone to go broke from buying concert tickets with
     me ;P
   interests:
-  - music
+  - nightlife
   - artsy
   - finance
-  - nightlife
   promptList:
   - promptText: 'My BFF''s take on why you should date me: '
     answerText: Only dare to if you can keep up with them

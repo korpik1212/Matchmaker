@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: tar_Jazhe_lvl1
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts:
-  - cool good job345
-  - NOOO! wrong12
+  - cool good job45
+  - NOOO! wrong123
   characterName: Jazhe
   characterIcon: {fileID: 3523672269167575020, guid: c69e7d53ef309914389ff0ca01956215, type: 3}
   characterBio: wE MEET UP.?
@@ -23,5 +23,8 @@ MonoBehaviour:
   - programing
   - finance
   promptList: []
-  tags: []
+  tags:
+  - nightlife
+  - programing
+  - finance
   flags: []

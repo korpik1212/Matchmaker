@@ -26,6 +26,6 @@ public class Ending : MonoBehaviour
 
     public void ResetToMainScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }

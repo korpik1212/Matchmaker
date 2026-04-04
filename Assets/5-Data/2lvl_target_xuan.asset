@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 2lvl_target_xuan
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   feedbackTexts:
-  - WaAaAaa! How awsome~~~~ xDD ThxxsXoXo345
-  - ... srsly? why?12
+  - WaAaAaa! How awsome~~~~ xDD ThxxsXoXo45
+  - ... srsly? why?123
   characterName: Yu-Xuan
   characterIcon: {fileID: -8570862421393321798, guid: f09c00b500f3b654db3dab08a4a156a1, type: 3}
   characterBio: "Wanna grab ramyon & bubble tea together?      (\u273F\u02F5\u2022\u0301
@@ -29,6 +29,9 @@ MonoBehaviour:
   tags:
   - extroverted
   - nerdy
+  - music
+  - programing
+  - artsy
   flags:
   - type: 1
     searchType: 0
